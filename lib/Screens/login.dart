@@ -150,15 +150,16 @@ class Login extends StatelessWidget {
                   padding: EdgeInsets.symmetric(horizontal: 10),
                   child: FilledButton(
                     onPressed: () {},
-                    child: Text(
-                      "Login",
-                      style: GoogleFonts.kanit(fontSize: 25),
-                    ),
+
                     style: FilledButton.styleFrom(
                       minimumSize: Size(355, 50),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30),
                       ),
+                    ),
+                    child: Text(
+                      "Login",
+                      style: GoogleFonts.kanit(fontSize: 25),
                     ),
                   ),
                 ),
@@ -189,9 +190,6 @@ class Login extends StatelessWidget {
                     ),
                   ),
                 ),
-
-                
-               
               ],
             ),
           ),
